@@ -1,18 +1,18 @@
-### PDF to Word Converter (Offline)
+# PDF to Word Converter (Offline)
 
 Hey there! 👋
 This is a simple offline PDF to Word converter built in Python. It comes with a friendly GUI so you can easily turn any PDF into an editable Word document without needing an internet connection.
 
 Think of it as your little assistant for quickly editing PDFs!
 
-### Features
+## Features
 
 - Convert PDFs into Word (.docx) in a few clicks
 - Pick where to save your Word files
 - Simple GUI: Browse → Convert → Done!
 - After conversion, choose to convert more PDFs or exit
 
-### What You Need
+## What You Need
 
 # Before you get started, make sure you have:
 - Python 3.8+ installed
@@ -20,11 +20,11 @@ Think of it as your little assistant for quickly editing PDFs!
 - Tkinter (comes with Python by default)
 - Optional: PyInstaller if you want a standalone app
 
-### How to Get It Running (Step by Step)
+## How to Get It Running (Step by Step)
 
 # 1. Clone the repository (or download it as ZIP):
 ```
-git clone https://github.com/yourusername/pdf-to-word-converter.git
+git clone https://github.com/sharan-johijode-dotcom/PDF-to-Word-Converter.git
 cd pdf-to-word-converter
 ```
 
@@ -50,7 +50,7 @@ python pdf_to_word_gui_v2.py
 
 And that’s it! 🎉
 
-### Make It a Standalone App (Optional)
+## Make It a Standalone App (Optional)
 
 Want to give it to friends or colleagues without them needing Python? You can make a single executable file:
 
@@ -73,7 +73,7 @@ dist/pdf_to_word_gui_v2(.exe/.app/.deb)
 Double-click it and it runs just like a normal app (Windows).
 
 
-### Things to Keep in Mind
+## Things to Keep in Mind
 
 Works best with text-based PDFs. Scanned PDFs aren’t supported yet.
 Layout may not always be perfect, especially with complex tables or multi-column PDFs.
