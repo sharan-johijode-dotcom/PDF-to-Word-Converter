@@ -61,9 +61,9 @@ pip install pyinstaller
 
 # 2. Run this command :
 ```
-Windows    -> pyinstaller --onefile --windowed --icon=icon.ico pdf_to_word_gui_v2.py
-Mac        -> pyinstaller --onefile --windowed main.py
-Linux/unix -> pyinstaller --onefile main.py
+Windows    -> pyinstaller --onefile --windowed --icon=icon.ico pdf_to_word_gui.py
+Mac        -> pyinstaller --onefile --windowed pdf_to_word_gui.py
+Linux/unix -> pyinstaller --onefile pdf_to_word_gui.py
 ```
 
 # 3. Find your app in the dist/ folder:
